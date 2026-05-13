@@ -343,9 +343,9 @@ function cargarEstado() {
   } catch(e) {}
   return {
     envelopes: [
-      { id:1, amount:95000, spent:0, week:'Esta semana', active:true, closed:false, transactions:[] },
+      { id:1, amount:94000, spent:0, week:'Esta semana', active:true, closed:false, transactions:[] },
       ...Array.from({length:10}, (_,i) => ({
-        id:i+2, amount:95000, spent:0, week:`Semana ${i+2}`,
+        id:i+2, amount:94000, spent:0, week:`Semana ${i+2}`,
         active:false, closed:false, transactions:[]
       }))
     ],
